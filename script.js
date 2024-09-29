@@ -12,12 +12,12 @@ setTimeout(getData, 2500)
 
 function getData() {
   header.innerHTML =
-    '<img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80" alt="" />'
+    '<img src="https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-winter-mountain-scenery-sunset-with-snow-covered-trees-and-inversion-free-photo.jpg?w=600&quality=80" />'
   title.innerHTML = 'Lorem ipsum dolor sit amet'
   excerpt.innerHTML =
     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore perferendis'
   profile_img.innerHTML =
-    '<img src="https://randomuser.me/api/portraits/men/45.jpg" alt="" />'
+    '<img src="https://i.pinimg.com/236x/67/9a/a9/679aa989338b4a0e153b6c9c832dcd99.jpg" />'
   name.innerHTML = 'John Doe'
   date.innerHTML = 'Oct 08, 2020'
 

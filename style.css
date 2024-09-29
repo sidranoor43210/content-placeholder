@@ -5,7 +5,9 @@
 }
 
 body {
-  background-color: #ecf0f1;
+  background: linear-gradient(rgb(159, 220, 231) ,
+  #eed0bc,
+   rgb(235, 218, 171) ,rgb(173, 219, 233));
   font-family: 'Roboto', sans-serif;
   display: flex;
   align-items: center;
@@ -24,8 +26,16 @@ img {
   border-radius: 10px;
   overflow: hidden;
   width: 350px;
+  position: relative;
 }
 
+.card:hover{
+
+  cursor: pointer;
+  transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.753);
+color: rgb(122, 177, 240);
+}
 .card-header {
   height: 200px;
 }
@@ -40,7 +50,9 @@ img {
   background-color: #fff;
   padding: 30px;
 }
-
+.card-content:hover{
+  background-color: #f5e6b5;
+}
 .card-title {
   height: 20px;
   margin: 0;
@@ -50,7 +62,9 @@ img {
   color: #777;
   margin: 10px 0 20px;
 }
-
+.card-excerpt:hover{
+color: rgb(58, 189, 233);
+}
 .author {
   display: flex;
 }
@@ -74,7 +88,6 @@ img {
   color: #aaa;
   margin-top: 5px;
 }
-
 .animated-bg {
   background-image: linear-gradient(
     to right,
